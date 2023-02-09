@@ -1,0 +1,44 @@
+.page-content
+	display: none
+	&__title
+		font-size: 20px
+		margin-bottom: 20px
+	&.active
+		display: block
+
+// Devices
+
+.create-form
+	&__field
+		margin-bottom: 15px
+	&__btn
+		text-align: center
+
+.admin-device
+	display: grid
+	grid-template-columns: 30px 50px repeat(6, 1fr)
+	align-items: center
+	justify-items: center
+	padding: 5px
+	border-bottom: $border
+	&__img
+		width: 30px
+		height: 30px
+	.star
+		width: 10px
+		height: 10px
+
+.admin-brand, .admin-type, .order
+	display: grid
+	grid-template-columns: 30px repeat(3, 1fr)
+	justify-items: center
+	padding: 5px
+	border-bottom: $border
+
+.admin-user
+	display: grid
+	grid-template-columns: 30px 50px 100px 100px 100px 100px repeat(3, 1fr)
+	align-items: center
+	justify-items: center
+	padding: 5px
+	border-bottom: $border
